@@ -4,6 +4,10 @@ d = {
     'height': 170
 }
 
+for k,v in d.items():
+    print(f"k: {k}, v:{v}")
+
+
 print(d)
 print(type(d))
 
@@ -26,3 +30,5 @@ d.popitem()
 d.popitem()
 d.popitem()
 print(d)
+
+
